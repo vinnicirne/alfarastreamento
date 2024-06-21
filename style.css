@@ -93,12 +93,15 @@ nav ul li a::before{
     padding-left: 50px;
     background-color: #1a83c4;
     color: white;
+    background-image: url(/assets/background.png);
+    background-image: no-repeat;
     
   }
   #cabecalho-text a{
     text-decoration: none;
     list-style: none;
     color: #1a83c4;
+    
  }
   #cabecalho img{
     width: 50%;
