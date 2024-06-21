@@ -1,6 +1,5 @@
-body{
-  font-family: "inter", sans-serif;
-  
+*{
+  font-family: 'inter', sans-serif;
 }
 header{
   padding: 15px;
@@ -93,6 +92,7 @@ nav ul li a::before{
     padding-left: 50px;
     background-color: #1a83c4;
     color: white;
+    
        
   }
   #cabecalho-text a{
@@ -107,7 +107,7 @@ nav ul li a::before{
     padding-right: 40px;
     
   }
-  #cabecalho button{
+  #cabecalho button{ /*botão falar com especialista*/
     color: #1a83c4;
     background-color: white;
     border-radius: 10px; 
@@ -117,7 +117,102 @@ nav ul li a::before{
     font-size: 15px;
     font-weight: 600;
  }
+ /*slider1*/
+ #display-slider1{
+  margin: 50px;
+  display: block;
+  width: 35%;
+  box-shadow: 1px 5px 5px #1a83c4;
+  box-sizing: border-box;
+  border: 1px solid #1a83c4;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: white;
+    color: white;
+ }
+
+ #display-slider1 h3{
+  margin-top: 0;
+  color: #1a83c4;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 0
+  
+ }
+ #display-slider1 p{
+  font-size: 18px;
+  width: 80%;  
+  font-size: 15px;
+  color: #333;
+  line-height: normal;
+  margin: 0 10 13px;
+  cursor: default;
+ }
  
+ #display-slider2{
+  margin: 50px;
+  display: block;
+  width: 35%;
+  box-shadow: 1px 5px 5px #1a83c4;
+  box-sizing: border-box;
+  border: 1px solid #1a83c4;
 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: white;
+    color: white;
+ }
+ #display-slider2 h3{
+  margin-top: 0;
+  color: #1a83c4;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 0
+ }
+ #display-slider2 p{
+  font-size: 18px;
+  width: 80%;  
+  font-size: 15px;
+  color: #333;
+  line-height: normal;
+  margin: 0 10 13px;
+  cursor: default;
+ }
 
+ #display-slider3{
+  margin: 50px;
+  display: block;
+  width: 35%;
+  box-shadow: 1px 5px 5px #1a83c4;
+  box-sizing: border-box;
+  border: 1px solid #1a83c4;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: white;
+    color: white;
+ }
+ #display-slider3 h3{
+  margin-top: 0;
+  color: #1a83c4;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 0;
+ }
+ #display-slider3 p{
+  font-size: 18px;
+  width: 80%;  
+  font-size: 15px;
+  color: #333;
+  line-height: normal;
+  margin: 0 10 13px;
+  cursor: default;
+ }
 
