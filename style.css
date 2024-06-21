@@ -1,0 +1,122 @@
+body{
+  font-family: "inter", sans-serif;
+  
+}
+header{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 5px #1a83c4;
+
+}
+#entrar a{ /*estilizando botão entrar*/
+color: white;
+background-color: #1a83c4;
+border-radius: 20px; 
+border: none;
+width: 150px;
+
+}
+li button{ /*background e borda botão entrar*/
+  background: none;
+  border: none;
+}
+#entrar li button a:hover{
+  color: aqua;
+}
+
+/*Estilizar logoMarca*/
+#logo{
+  margin-right: 20px;
+}
+#logo img{
+  width: 250px; /*tamanho da imagem*/
+}
+
+/*Estilizar Menu*/
+nav ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+nav li{
+  margin-right: 60px; /*Espaçamento entre textos*/
+}
+nav a{
+  /*Estilizando os links*/
+  color: #1a83c4;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  }
+nav a:hover{
+  /*cor do texto ao passar o mouse*/
+  color: blue;
+}
+nav li:last-child{
+  /*buscar mais informações sobre o last-child*/
+  margin-right: 0;
+}
+nav ul li {
+  position: relative;
+}
+nav ul li a{
+display: block;
+padding: 10px 8px;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+nav ul li a::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  }
+  nav a:focus{
+    box-shadow: 0 0 0 2px #fff;
+  }
+
+  /*cabeçalho do site*/
+  #cabecalho-text{
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: #1a83c4;
+    color: white;
+    
+  }
+  #cabecalho-text a{
+    text-decoration: none;
+    list-style: none;
+    color: #1a83c4;
+ }
+  #cabecalho img{
+    width: 50%;
+    float: right;
+    padding-right: 40px;
+    
+  }
+  #cabecalho button{
+    color: #1a83c4;
+    background-color: white;
+    border-radius: 10px; 
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+ }
+ 
+
+
+
